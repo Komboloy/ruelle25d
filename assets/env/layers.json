@@ -55,15 +55,15 @@
   {
    "name": "foreground",
    "z": 4.0,
-   "x": -2,
+   "x": -2.0,
    "y": -1.5,
-   "w": 44,
-   "h": 2.6,
-   "emissive": false,
+   "w": 44.0,
+   "h": 6.0,
+   "emissive": true,
    "normal": false,
    "unshaded": false,
    "cast_shadow": false,
-   "emit_energy": 3.0
+   "emit_energy": 2.0
   }
  ],
  "doors": [

@@ -58,8 +58,13 @@ Peinte par `tools/paint_city.py` (bibliothèque commune : `tools/pixlib.py`) :
 
 Seule la bande au-dessus du mur est visible : les toits sont donc gardés entre ~6 et 9 m.
 
+### Le premier plan
+Peint par `tools/paint_foreground.py` : garde-corps à grecque, bornes, plantes, plot, arceaux
+à vélo, deux poteaux électriques et leurs câbles qui traversent le haut de l'image. Placé entre
+la caméra et le personnage, il reste à contre-jour et passe dans le flou de profondeur proche.
+
 ### Les autres plans
-Montagnes et premier plan restent des placeholders générés : remplace-les par tes images
+Les montagnes restent un placeholder généré : remplace-les par tes images
 en gardant les noms, ou ajoute-en dans `layers.json` (`z` = profondeur, `x`/`y`/`w`/`h` en
 mètres). Densité conseillée : 32 texels/m au plan de jeu, moins pour les plans lointains.
 
