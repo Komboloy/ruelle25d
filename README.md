@@ -50,8 +50,16 @@ distributeurs, rideaux de fer, climatiseurs, vélo, gachapon…). Le script prod
 Pour modifier le mur : édite la section « composition » en bas du script, puis
 `python3 tools/paint_wall.py assets/env`.
 
+### La ville
+Peinte par `tools/paint_city.py` (bibliothèque commune : `tools/pixlib.py`) :
+- `city_mid` : immeubles d'habitation et de bureaux, maisons à toit de tuiles, réservoirs d'eau,
+  panneaux publicitaires sur treillis, enseignes empilées, poteaux électriques et câbles ;
+- `city_far` : skyline en trois couches de brume, tour en treillis éclairée, feux d'obstacle.
+
+Seule la bande au-dessus du mur est visible : les toits sont donc gardés entre ~6 et 9 m.
+
 ### Les autres plans
-Ville, montagnes et premier plan restent des placeholders générés : remplace-les par tes images
+Montagnes et premier plan restent des placeholders générés : remplace-les par tes images
 en gardant les noms, ou ajoute-en dans `layers.json` (`z` = profondeur, `x`/`y`/`w`/`h` en
 mètres). Densité conseillée : 32 texels/m au plan de jeu, moins pour les plans lointains.
 

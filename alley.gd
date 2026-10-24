@@ -97,8 +97,8 @@ func _build_camera() -> void:
 	cam.far = 200.0
 	cam_attr = CameraAttributesPractical.new()
 	cam_attr.dof_blur_far_enabled = true
-	cam_attr.dof_blur_far_distance = 24.0
-	cam_attr.dof_blur_far_transition = 20.0
+	cam_attr.dof_blur_far_distance = 30.0
+	cam_attr.dof_blur_far_transition = 28.0
 	cam_attr.dof_blur_near_enabled = true
 	cam_attr.dof_blur_near_distance = 12.5
 	cam_attr.dof_blur_near_transition = 2.5
