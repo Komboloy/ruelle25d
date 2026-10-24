@@ -1,0 +1,8 @@
+# Godot
+.godot/
+*.import
+export_presets.cfg
+# Python
+__pycache__/
+# macOS
+.DS_Store

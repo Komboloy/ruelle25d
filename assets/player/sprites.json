@@ -1,0 +1,24 @@
+{
+  "frame_size": 64,
+  "columns": 8,
+  "rows": 4,
+  "fps": 10,
+  "animations": {
+    "idle": {
+      "row": 0,
+      "frames": 4
+    },
+    "walk": {
+      "row": 1,
+      "frames": 8
+    },
+    "jump": {
+      "row": 2,
+      "frames": 1
+    },
+    "fall": {
+      "row": 3,
+      "frames": 1
+    }
+  }
+}

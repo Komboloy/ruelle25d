@@ -1,0 +1,21 @@
+; Ruelle 2.5D : pixel art dans une scène 3D (brouillard volumétrique, bloom, DOF, reflets)
+config_version=5
+
+[application]
+config/name="Ruelle25D"
+run/main_scene="res://alley.tscn"
+config/features=PackedStringArray("4.7", "Forward Plus")
+
+[display]
+window/size/viewport_width=960
+window/size/viewport_height=540
+window/size/window_width_override=1920
+window/size/window_height_override=1080
+window/stretch/mode="viewport"
+
+[rendering]
+renderer/rendering_method="forward_plus"
+anti_aliasing/quality/msaa_3d=0
+anti_aliasing/quality/screen_space_aa=0
+environment/volumetric_fog/volume_size=96
+environment/volumetric_fog/volume_depth=96

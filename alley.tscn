@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://alley.gd" id="1"]
+[ext_resource type="PackedScene" path="res://player.tscn" id="2"]
+
+[node name="Alley" type="Node3D"]
+script = ExtResource("1")
+
+[node name="Player" parent="." instance=ExtResource("2")]
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="Info" type="Label" parent="UI"]
+offset_left = 6.0
+offset_top = 4.0
+offset_right = 900.0
+offset_bottom = 24.0
+theme_override_colors/font_color = Color(1, 1, 1, 0.7)
+theme_override_font_sizes/font_size = 10

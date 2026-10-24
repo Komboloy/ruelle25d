@@ -1,0 +1,105 @@
+{
+ "layers": [
+  {
+   "name": "mountains",
+   "z": -70.0,
+   "x": -45,
+   "y": -2,
+   "w": 130,
+   "h": 22,
+   "emissive": false,
+   "normal": false,
+   "unshaded": false,
+   "cast_shadow": false,
+   "emit_energy": 3.0
+  },
+  {
+   "name": "city_far",
+   "z": -40.0,
+   "x": -30,
+   "y": -2,
+   "w": 100,
+   "h": 42,
+   "emissive": true,
+   "normal": false,
+   "unshaded": false,
+   "cast_shadow": false,
+   "emit_energy": 3.0
+  },
+  {
+   "name": "city_mid",
+   "z": -16.0,
+   "x": -15,
+   "y": -1,
+   "w": 72,
+   "h": 22,
+   "emissive": true,
+   "normal": false,
+   "unshaded": false,
+   "cast_shadow": false,
+   "emit_energy": 3.0
+  },
+  {
+   "name": "wall",
+   "z": -2.5,
+   "x": -3,
+   "y": 0,
+   "w": 46,
+   "h": 5.0,
+   "emissive": true,
+   "normal": true,
+   "unshaded": false,
+   "cast_shadow": true,
+   "emit_energy": 1.6
+  },
+  {
+   "name": "foreground",
+   "z": 4.0,
+   "x": -2,
+   "y": -1.5,
+   "w": 44,
+   "h": 2.6,
+   "emissive": false,
+   "normal": false,
+   "unshaded": false,
+   "cast_shadow": false,
+   "emit_energy": 3.0
+  }
+ ],
+ "doors": [
+  [
+   9.6875,
+   2.625
+  ],
+  [
+   31.6875,
+   2.625
+  ]
+ ],
+ "windows": [
+  [
+   1.125,
+   4.0
+  ],
+  [
+   11.625,
+   4.0
+  ],
+  [
+   17.125,
+   4.0
+  ],
+  [
+   23.625,
+   4.0
+  ],
+  [
+   34.625,
+   4.0
+  ],
+  [
+   39.625,
+   4.0
+  ]
+ ]
+}
